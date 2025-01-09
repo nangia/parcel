@@ -1,11 +1,11 @@
 {
-  "homepage": "https://nangia.github.io/parcel",
+  "homepage": "https://nangia.github.io/parcel/",
   "name": "parcel-postage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
